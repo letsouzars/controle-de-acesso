@@ -1,3 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
 @font-face {
     font-family: Roboto Bold;
     src: url(Roboto-Bold.ttf);
@@ -9,4 +24,24 @@
 
 .titulo {
     font: 20px 'Roboto Bold';
+}
+
+#mensagem {
+    font: 15px 'Roboto BoldItalic';
+}
+
+.caixa {
+    font: 15px 'Roboto Bold';
+
+}
+
+.container {
+    padding: 250px;
+    align-items: center;
+    text-align: center;
+
+
+}
+input {
+    border: 3px solid purple;
 }
